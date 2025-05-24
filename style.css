@@ -1,0 +1,85 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+main .bgPic {
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(https://static.wixstatic.com/media/84770f_62bea82dec60407d81320c967a003c1f~mv2_d_5468_2742_s_4_2.jpg/v1/fill/w_1225,h_913,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/84770f_62bea82dec60407d81320c967a003c1f~mv2_d_5468_2742_s_4_2.jpg);
+}
+main .child {
+  margin-top: -40vh;
+  width: 60%;
+}
+main .child h1 {
+  font-size: 40px;
+  width: 300px;
+}
+main .child .cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .child .cards .myCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main .child .cards .myCard img {
+  width: 50%;
+}
+main .child .cards .myCard .card-body {
+  width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+  .myCard {
+    flex-direction: column !important;
+  }
+  .myCard img {
+    width: 100% !important;
+  }
+  .myCard .card-body {
+    width: 100% !important;
+  }
+}
+.carSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.carSection .carousel {
+  width: 80%;
+}
+.carSection .carousel .carousel-inner .carousel-item .caruselParentImg1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  background-position: center center;
+  background-image: url(https://images.unsplash.com/photo-1747049552306-0f94c91bd351?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D);
+}
+.carSection .carousel .carousel-inner .carousel-item .caruselParentImg2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  background-position: center center;
+  background-image: url(https://images.unsplash.com/photo-1746424919579-7c119aaa8e61?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzMHx8fGVufDB8fHx8fA%3D%3D);
+}
+.carSection .carousel .carousel-inner .carousel-item .caruselParentImg3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  background-position: center center;
+  background-image: url(https://images.unsplash.com/photo-1747049552306-0f94c91bd351?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D);
+}/*# sourceMappingURL=style.css.map */
